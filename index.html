@@ -6,36 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>portfolio</title>
   <link rel="stylesheet" href="css/styles.css">
+  <script src="css/bootstrap.css"></script>
+  <script src="js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <script src="https://kit.fontawesome.com/c795d03129.js" crossorigin="anonymous"></script>  
 </head>
 <body>
-<div class="wrapper">
+  
+<div class="conatnier">
+<div class="navba ">
 <head>
-  <nav class="navbar">
-    <div class="brand">
-      <h2>A<span>M</span></h2>
-    </div>
-    <ul class="menu">
-      <li ><a  class="activa"href="#">Home</a></li>
-      <li><a href="index.html#about">Aboute me</a></li>
-      <li><a href="index.html#portfolio">Portafolio</a></li>
-      <li><a href="index.html#contact">Contacto</a></li>
+  <div class="jumbotron" style="background: rgb(51,120,255);
+  background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100%);" >
+    <div class="container text-center p-4">
+        <a href="index.html" style="text-decoration: none;">
+          <div class="brand">
+            <h2 style="color: #f0f8ff;">A<span>M</span></h2>
+          </div>
+    </a>
+    </div>     
+</div>
+  <nav class="navbar navbar-expand-sm  navegacion-principal justify-content-evenly" style="background: rgb(51,120,255);
+  background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100%);">
+    <ul class="menu navbar-nav">
+      <li class="nav-item my-2" ><a  class="activa nav-link" href="index.html">Home</a></li>
+      <li class="nav-item my-2"><a  class="activa nav-link" href="index.html#about">Aboute me</a></li>
+      <li class="nav-item my-2"><a class="activa nav-link" href="index.html#portfolio">Portafolio</a></li>
+      <li class="nav-item my-2"><a class="activa nav-link" href="index.html#contact">Contacto</a></li>
     </ul>
+
   </nav>
 </head>
+</div>
+</div>
+
+<div class="whead">
+<div class="container-fluid ">
 <main class="main">
+  
   <div class="info-content">
-    <h1>I'am  <span>Alexis</span> Aminadaf</h1>
-    <p>I'm a Passionate Web developer/ designer.</p>
+    <h1 style="font-size: 48px;">I'am  <span>Alexis</span> Aminadaf</h1>
+    <p style="font-size: 16px;">I'm a Passionate Web developer/ designer.</p>
     <a download href="CV-Alexis Aminadaf Martinez Acosta.pdf">
      <button class="download-cv">Download CV</button> </a>
   </div>
-  <img src="./img/a1.jfif" alt="Alexis Aminadaf picture " >
+  <div class="container-fluid m-4">
+  <img src="./img/a1.jfif"  class="img-fluid" alt="Alexis Aminadaf picture " >
+</div>
 </main>
 </div>
+</div>
+
+<!--    <div class="container-fluid"></div>     -->
 
 <div class="about" id="about">
-  <img src="img/Mi.jpeg"  alt="">
+  <img src="img/Mi.jpeg" class="img-fluid" alt="">
 
 <div class="about-info">
   <h2>About me</h2>
@@ -46,85 +71,147 @@
   </div>
   <button class="download-cv">Read more</button> </a>
 </div>
-<div class="portfolio" id="portfolio">
+
+<div class="container-fluid"></div>
+<div class="portfolios" id="portfolio">
   <div class="portfolio-headings">
     <h2>My Portfolio</h2>
     <div class="divider"></div>
   </div>
-  <div class="container">
-    <div class="card">
-      <div class="card__img1">
-      </div>
-      <div class="card__title">
-        <h2>Project Description</h2>
-      </div>
-      <div class="card__proyect-links">
-        <a href="#">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="">
-          <i class="fas fa-globe-asia"></i>
-        </a>
-        <a href="">
-          <i class="fas fa-code"></i>
-        </a>
-      </div>
-      <div class="button-content">
-        <button class="project-details-button download-cv">
-          <a href="CV/Proyecto Funcional.pdf" download="">Project Details</a>
-        </button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card__img2">
-      </div>
-      <div class="card__title">
-        <h2>Project Description</h2>
-      </div>
-      <div class="card__proyect-links">
-        <a href="https://github.com/alexis33332/pogit-mernapp-cliente" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://clever-parfait-c11e06.netlify.app/" target="_blank">
-          <i class="fas fa-globe-asia"></i>
-        </a>
-        <a href="">
-          <i class="fas fa-code"></i>
-        </a>
-      </div>
-      <div class="button-content">
-        <button class="project-details-button download-cv">
-          <a href="cv/Reporte Deploy de App Web.pdf" download="">Project Details</a>
-        </button>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card__img3">
-      </div>
-      <div class="card__title">
-        <h2>Project Description</h2>
-      </div>
-      <div class="card__proyect-links">
-        <a href="#">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="">
-          <i class="fas fa-globe-asia"></i>
-        </a>
-        <a href="">
-          <i class="fas fa-code"></i>
-        </a>
-      </div>
-      <div class="button-content">
-        <button class="project-details-button download-cv">
-          <a href="cv/BuscadorRecetas_Martinez_Acosta_AlexisAminadaf.pdf" download="">Project Details</a>
-        </button>
-      </div>
-    </div>
+<!--Marca Tablas-->
+<!-- Proyectos -->
+<div class="container-fluid" tyle="position:relative;">
+  <div class="row" style="justify-content: center;">
+
+                     
+ <div class="card m-5" style="width: 18rem; background-color: #2b3058;">
+
+          <form >
+          
+          <div class="card-img-top card__img1"></div>
+          
+          
+                  <div class="card-body">
+                    
+                    
+                          <h4 class="card-title" style="color: #f0f8ff; " >Project Description</h4>
+
+                          <div class="card__proyect-links">
+                            <a href="#">
+                              <i class="fab fa-github"></i>
+                            </a>
+                            <a href="">
+                              <i class="fas fa-globe-asia"></i>
+                            </a>
+                            <a href="">
+                              <i class="fas fa-code"></i>
+                            </a>
+                          </div>
+
+                   
+                          <div class="container-fluid" style="position:absolut; justify-content: center; bottom:5px;">
+                            <button class="project-details-button download-cv">
+                              <a href="CV/Proyecto Funcional.pdf" download=""><i class="fa-brands fa-dochub"></i>Project Details</a>
+                            </button>
+                          </div>
+                  </div>
+          </form>
+
+          
+          
   </div>
+
+  <div class="card m-5" style="width: 18rem; background-color: #2b3058;">
+
+    <form >
+    
+    <div class="card-img-top card__img2"></div>
+    
+    
+            <div class="card-body">
+              
+              
+                    <h4 class="card-title" style="color: #f0f8ff; " >Project Description</h4>
+
+                    <div class="card__proyect-links">
+                      <a href="https://github.com/alexis33332/pogit-mernapp-cliente" target="_blank">
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a href="https://clever-parfait-c11e06.netlify.app/" target="_blank">
+                        <i class="fas fa-globe-asia"></i>
+                      </a>
+                      <a href="">
+                        <i class="fas fa-code"></i>
+                      </a>
+                    </div>
+
+             
+                    <div class="container-fluid" style="position:absolut; justify-content: center; bottom:5px;">
+                      <button class="project-details-button download-cv">
+                        <a href="cv/Reporte Deploy de App Web.pdf" download=""><i class="fa-brands fa-dochub"></i>Project Details</a>
+                      </button>
+                    </div>
+            </div>
+    </form>
+
+    
+    
 </div>
 
-<div class="contact-section" id="contact">
+<div class="card m-5" style="width: 18rem; background-color: #2b3058;">
+
+  <form >
+  
+  <div class="card-img-top card__img3"></div>
+  
+  
+          <div class="card-body">
+            
+            
+                  <h4 class="card-title" style="color: #f0f8ff; " >Project Description</h4>
+
+                  <div class="card__proyect-links">
+                    <a href="#">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="">
+                      <i class="fas fa-globe-asia"></i>
+                    </a>
+                    <a href="">
+                      <i class="fas fa-code"></i>
+                    </a>
+                  </div>
+
+           
+                  <div class="container-fluid" style="position:absolut; justify-content: center; bottom:5px;">
+                    <button class="project-details-button download-cv">
+                      <a href="cv/BuscadorRecetas_Martinez_Acosta_AlexisAminadaf.pdf" download=""><i class="fa-brands fa-dochub"></i>Project Details</a>
+                    </button>
+                  </div>
+          </div>
+  </form>
+
+  
+  
+</div>
+  
+                      
+                    
+           
+          
+      
+  </div>
+</div>
+</div>
+
+</div>
+
+<!--Marca Tablas2-->
+
+
+
+<div class="container-fluid p-5">
+<div class="contact-sections" id="contact">
   <div class="contact-heading">
     <h2>Keep in touch</h2>
     <div class="divider"></div>
@@ -151,6 +238,14 @@
   </div>
 </div>
 
+</div>
+
+
+
+
+
+
+<div class="container-fluid p-1 m-1">
 <footer class="footer"> 
   <div class="footer-content">
     <h2>Alexis Aminadaf</h2>
@@ -169,5 +264,7 @@
     
   </div>
 </footer>
+</div>
+</div>
 </body>
 </html>

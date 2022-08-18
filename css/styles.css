@@ -36,8 +36,7 @@ background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100
 
 
 .whead{
-  width: 100vw;
-  height: 80vh;
+  
   background: rgb(51,120,255);
 background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100%);
   color: aliceblue;

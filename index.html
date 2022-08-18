@@ -213,8 +213,8 @@
 
 
 <div class="wrapper">
-<div class="container-fluid p-5">
-<div class="contact-sections" id="contact">
+<div class="container-fluid text-dark p-5 text-center"  >
+<div class="contact-sections container p-5" id="contact" style="background-color: #f0f8ff; color: #2b3058;">
   <div class="contact-heading">
     <h2>Keep in touch</h2>
     <div class="divider"></div>
@@ -222,22 +222,42 @@
   <div class="container-contact">
     <div class="contact-form">
       <h4>Send me a message...</h4>
+
+
+      <!---->
+      <form action="https://formspree.io/f/mwkajezw" method="POST" >
+        <div class="mb-3 mt-3">
+            
+          
+            <label for=""><p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">email</p></label>
+            <input type="email" class="form-control" name="Email" id="" placeholder="email" required=" "><br>
+        </div>
       
-      <form action="https://formspree.io/f/mwkajezw" method="POST" class="form-group">
-        <div class="form-group">
-            <label for="email" >Email</label>
-            <input type="email" name="_replyto" class="input" id="email" placeholder="ejemplo@ejemplo.com">
-        </div>
         
-        <div class="form-group">
-            <label for="comment">Comments</label>
-            <textarea class="form-control"  name="name" id="comment" rows="3" ></textarea>
-        </div>
-        <div class="text-center ">
-        <button type="submit" class="btn-submit" value="Send" >Enviar formulario</button>
+        
+        <div class="mb-3">
+          <label for=""><p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Comments</p></label><br>
+          <textarea type="text-area" class="form-control" name="Comments" id="" autocomplete="off" placeholder="Comments" required=" "></textarea><br>
+        
+        </div>  <div class="text-center ">
+        <button type="submit" class="project-details-button download-cv" value="Send" >Enviar formulario</button>
       </div>
+   
+            
+         
+         
     
-    </form>
+        </form>
+
+
+
+
+
+      <!---->
+
+
+      
+      
     </div>
   </div>
 </div>

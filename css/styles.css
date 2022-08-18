@@ -148,6 +148,7 @@ span{
   grid-template-columns: repeat(10,1fr);
   width: 100vw;
   align-items: center;
+  margin-bottom: 1em;
 }
 .about-info{
   grid-column: 4/9;

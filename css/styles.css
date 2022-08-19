@@ -19,15 +19,22 @@
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+      height:100%;
+      margin:0px;
+      -ms-text-size-adjust:100%;
+      -webkit-text-size-adjust:100%;
+      
 }
 
 .navbar{
   display: flex;
   justify-content: space-between;
-  padding: 2.5em;
+  padding: 5em;
+  
+  
 }
 
-.navba{
+.navbar{
 
   background: rgb(51,120,255);
 background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100%);
@@ -37,6 +44,14 @@ background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100
 
 .whead{
   
+  background: rgb(51,120,255);
+background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100%);
+  color: aliceblue;
+
+}
+
+.wrap {
+
   background: rgb(51,120,255);
 background: linear-gradient(90deg, rgba(51,120,255,1) 0%, rgba(148,66,254,1) 100%);
   color: aliceblue;
